@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px; }
+
+header {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        height: 230px; }
+
+header label {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid #fff; }
+
+.menu ul {
+        margin: 0;
+        padding: 0; }
+
+.menu li {
+        flex-grow: 1;
+        border-right: 1px solid #fff; }
+    
+.menu li a {
+            padding: 15px 20px; }
+
+.texto1 {
+        top: 300px;
+        left: 30%;
+        font-size: 50px;}
+
+.texto2 {
+        top: 400px;
+        left: 20%;
+        font-size: 50px; }
+
+.tituloseccion1 {
+        font-size: 30px; }
+      
+.subtitulosseccion1 {
+        font-size: 20px;
+        padding: 2%; }
+
+.txtseccion1 {
+        font-size: 14px;
+        line-height: 1.6; }
+
+.viewExa {
+            border: lightseagreen 4px solid;
+            width: 250px;
+            height: 200px;
+            font-size: 35px;
+            margin: 22px;
+            padding: 45px;}
+
+footer {
+            width: 100%;
+            height: 400px;
+            padding: 50px 0 0 0; }
+
+footer h5 {
+            font-size: 2rem;
+            font-weight: 900;}
+
+.paraTransicion:hover {
+            font-size: 3rem; }
+
+.txtfooter {
+            font-size: 14px;
+            line-height: 1.6;}
+
+.tituloseccion2 {
+            font-size: 20px;}
+
+.galeria {
+            margin-top: 5vh;
+            padding: 25px; }
+
+.fotos {
+            width: 100%; }
+
+.fotoev {
+            margin: 3px; }
+        
+iframe {
+            max-width: 100%; }

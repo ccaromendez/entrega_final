@@ -1,12 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRUEBA DE GIT</title>
+	<meta charset="UTF-8">
+	<title>El Salmon</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/estilosCSS.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,900;1,500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    Este es un index basico
+	<header>
+		<div class="logo">
+			<img style="width: 160px;" src="media/img/logo.png" alt="logoelsalmon">
+		</div>
+		<input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="media/img/icono-menu.png" alt=""></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="empresa.html">Nosotros</a></li>  
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="recetas.html">Recetas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav> 
+	</header>
+	<section>
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media/img/2s.jpg" class="d-block w-100" alt="pescado1">
+        </div>
+        <div class="carousel-item">
+          <img src="media/img/2.jpg" class="d-block w-100" alt="pescado2">
+        </div>
+        <div class="carousel-item">
+          <img src="media/img/3a.jpg" class="d-block w-100" alt="pescado3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+	</section>
+	<br><br><br><br>
+	<section>
+		<article>
+			<h1 class="tituloseccion1">LA MEJOR CALIDAD Y SABOR</h1>  
+			<h2 class="subtitulosseccion1">Líderes en distribución</h2>
+			<p class="txtseccion1">Desde Mar del Plata, la ciudad portuaria<br> del país por excelencia, se distribuyen <br> productos de mar de alta calidad.<br> <em>El Salmon Distribuidora</em> lo hace posible.</p>
+		</article>
+		<article>   
+			<h2 class="subtitulosseccion1">Encuentre sus productos</h2>
+			<p class="txtseccion1">También traemos productos congelados empanados,<br> pre fritos a base de merluza, pollo y vegetales.</p>
+		</article>
+		<article>
+			<h2 class="subtitulosseccion1">Lanzamientos</h2>
+			<p class="txtseccion1">Nuestra gran fortaleza es la innovación,<br> siempre estamos buscando nuevos productos<br> para satisfacer a nuestros clientes.</p>
+		</article>
+	</section>
+	<br><br>
+	<section>
+        <div>
+            <h2 class="tituloseccion1">LÍDERES EN ALIMENTOS CONGELADOS</h2>
+            <h2 class="subtitulosseccion1">Los productos más vendidos</h2>
+        </div>
+  </section>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="media/img/patitas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>PATITAS DE POLLO</strong></h5>
+          <p class="card-text">Lineas Artico, Granja del Sol, Grangys.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Venta por Kg o caja.</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="media/img/aros.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>AROS DE CEBOLLA</strong></h5>
+          <p class="card-text">Linea Mc Cain.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Venta por Kg o caja.</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="media/img/noisette.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>PAPAS NOISETTE</strong></h5>
+          <p class="card-text">Linea Mc Cain.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Venta por Kg o caja.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+	<br><br><br><br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.2630915546556!2d-57.5563643846747!3d-38.040955679711864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de77da24878d%3A0x1f74b8b28e0bb358!2sIrala%203898%2C%20B7603GSD%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1619636370513!5m2!1ses!2sar" width="1300" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <footer>
+		<h5 class="paraTransicion"> ¡CONÓCENOS!</h5>
+        <div class="icono">
+			<img style="width: 100px;" src="media/img/f.png" alt="logoelsalmon">
+		</div>
+        <br> 
+		<div>
+            <p class="txtfooter">
+                <strong>CENTRO DE DISTRIBUCIÓN</strong> <br>
+                Irala 3898 <br>
+                Mar del Plata <br>
+            </p>
+        </div>
+        <div>
+            <p class="txtfooter">
+                <strong>MAIL</strong> <br>
+                elsalmondistribuidora@gmail.com<br>
+            </p>
+        </div>
+        <div>
+            <p class="txtfooter">
+                <strong>TELÉFONOS</strong> <br>
+                +54(223) 489-5459<br>
+                +54(223) 489-5488<br>
+            </p>
+        </div>
+	</footer>
+
 </body>
 </html>

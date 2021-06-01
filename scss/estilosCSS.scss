@@ -1,0 +1,133 @@
+
+@import "tamanos";
+@import "colores";
+
+body {
+  font-family: 'Montserrat'; }
+
+/* Index */
+/* Header */
+
+#btn-menu {
+  display: none; }
+
+header label {
+  display: none; }
+
+header label:hover {
+  cursor: pointer;}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  text-align: center; }
+
+@media (max-width: 768px) {
+  header label {
+    display: block; }
+  .menu {
+    position: relative;
+    z-index: 1000;
+    background: #ffba08;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s; }
+  .menu ul {
+    flex-direction: column; }
+  .menu li {
+    border-top: 1px solid #fff; }
+  #btn-menu:checked ~ .menu {
+    margin: 0; } }
+
+.logo {
+  text-align: center; }
+
+.caja {
+  position: relative;
+  display: inline-block; }
+
+.texto1 {
+  position: absolute;
+  font-family: 'Montserrat';}
+
+.texto2 {
+  position: absolute;
+  font-family: 'Montserrat';}
+
+/* Termina Header */
+/* Seccion 1 */
+.tituloseccion1 {
+  text-align: center;}
+
+.subtitulosseccion1 {
+  text-align: center; }
+
+.txtseccion1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+/* Termina Seccion 1 */
+/* Seccion 2 */
+.viewExa {
+
+  border: lightseagreen 4px solid;
+  width: 250px;
+  height: 200px;
+  font-size: 35px;
+
+  margin: 22px;
+  padding: 45px;}
+
+/* Termina Seccion 2 */
+/* Footer */
+
+footer h5 {
+  text-align: center; }
+
+.paraTransicion:hover {
+  transition: 3s; }
+
+.txtfooter {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+/* Productos */
+.videoCenter {
+  text-align: center; }
+
+.tituloseccion2 {
+  text-align: center; }
+
+/* Recetas */
+.galeria {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-between; }
+
+.fotos {
+  display: flex;
+  flex-flow: wrap row; }
+
+
+.destacado {
+  order: -1; }
+
+.zoom {
+  transition: transform 0.2s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
+
+/* Recetas */
+.centrar {
+  text-align: center; }
+
+
+.icono {
+  text-align: center; }
